@@ -1,0 +1,44 @@
+body{
+    background-color:burlywood;
+
+}
+
+#uno{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    transition: 2s;
+    
+}
+
+#uno:hover{
+    background-color:brown ;
+    width: 100%;
+}
+
+#dos{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: turquoise;
+    transition: 3s;
+}
+
+#dos:active{
+    background-color: cadetblue;
+    clip-path: circle(100% at 0 0);
+}
+
+#tres{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    transition: 3s;
+}
+#tres:hover{
+    
+    background-color: rgb(40, 19, 59);
+    clip-path: circle(90% at 0 0);
+}
