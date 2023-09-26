@@ -1,0 +1,139 @@
+ body{
+    background-image: linear-gradient(150deg, red 0%,  purple 100% );
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+ }
+ 
+
+ section{
+    width: 400px;
+    height: 600px; 
+    background-color: white;
+    border-radius: 10%;
+    position: absolute;
+    left: 35%;
+    text-align: center;
+    box-shadow: 7px 13px 37px #000;
+ }
+ 
+.cuadro{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto; 
+     
+}
+
+#nom{
+    position: absolute;
+    top: 135px;
+    width: 80%;
+    height: 5%;
+    right: 13%;
+    left: 7%;
+}
+#nam{
+    position: absolute;
+    left: 43%;
+    background-color: bisque;
+}
+
+#em{
+    position:absolute;
+    top: 210px;
+    right: 50px;
+    width: 80%;
+    height: 5%;
+    left: 7%;
+}
+#la{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    background-color: bisque;
+}
+
+#com{
+    color: #000;
+    position: relative;
+    top:276px;
+    font-weight: 700;
+    font-size: 25px; 
+
+}
+#say{
+    position: absolute;
+    top: 57%;
+    left: 40%;
+    font-size: 20px;
+    background-color: bisque;
+}
+
+#pss{
+    position: absolute;
+    top: 290px;
+    right: 10%;
+    width: 80%;
+    height: 5%;
+
+}
+#pass{
+    position: absolute;
+    top: 256px;
+    left: 40%;
+    background-color: bisque;
+}
+
+
+.botons{
+    width: 99%;
+    height: 45px;
+    background-image: linear-gradient(100deg, red 0%, rgb(3, 3, 111) 100%);
+    position: relative;
+    margin-top: 305px;
+    left: 0.5%;
+    border-radius: 5%;
+}
+
+.enviar{
+    width: 25%;
+    height: 60%;
+    background-image: linear-gradient(150deg, blue 0%, red 100%);
+    color:aliceblue;
+    position: absolute;
+    left:10%;
+    top: 20%;
+}
+.enviar:hover{
+    background-image: linear-gradient(-100deg, rgb(255, 109, 109) 0%,  rgb(105, 105, 255) 100%);
+}
+
+.reset{
+    width: 25%;
+    height: 60%;
+    background-image: linear-gradient(150deg, red 0%, blue 100%);
+    color: aliceblue;
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+.reset:hover{
+    background-image: linear-gradient(-100deg, rgb(105, 105, 255) 0%, rgb(255, 109, 109) 100%);
+}
+#col{
+    width: 75px;
+    height: 75px;
+    background-color: black;
+    border-radius: 50%;
+}
+#col:hover{
+    background-color:aliceblue;
+}
+#cool{
+    position: absolute;
+    top: 13%;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border-radius: 50%;
+}
