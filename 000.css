@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(175, 196, 196);
+    transition: 4s;
+    background-size: contain;
+}
+body:hover{
+    background-color: rgb(20, 19, 19);
+}
+#uwu {
+    color: rgb(255, 255, 255);
+    background-color:rgb(55, 57, 57);
+    width: 950px;
+    height: 2300px;
+    margin-top: 310px;
+}
+#aw {
+    color: white;
+    background-color: rgb(54, 54, 68);
+    width: 1350px;
+    height: 255px;
+    margin-top: 10px;
+    position:absolute;
+    top: 0;
+}
+#wa{
+    color: white;
+    width: 380px;
+    height: 800px;
+    background-color: rgb(127, 98, 98);
+    position: relative;
+    left: 970px;
+    top: -2320px;
+}
+#pros{
+    color: white;
+    width: 380px;
+    height: 800px;
+    background-color: rgb(152, 127, 127);
+    position: relative;
+    left: 970px;
+    top: -2022px;
+}
+#pross{
+    color: white;
+    width: 380px;
+    height: 550px;
+    background-color: lightsteelblue;
+    position: relative;
+    left:970px;
+    top: -3432px;
+}
+#wal{
+    color: white;
+    background-color: dimgrey;
+    width: 1350px;
+    height: 400px;
+    position: relative;
+    top: -752px;
+}
