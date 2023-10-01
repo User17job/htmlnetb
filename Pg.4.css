@@ -1,0 +1,186 @@
+body{
+    
+    background-image:linear-gradient(300deg, rgb(187, 187, 187) 0%, rgb(255, 255, 255) 100%);
+    position: relative;
+    min-height: 100vh;
+    color: black;
+    
+}
+.qr{
+    position: absolute;
+    top: -35px;
+    left: 25%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+.p{
+    position: relative;
+    top:590px;
+}
+
+#base{
+    position: absolute;
+    width: 50%;
+    height: 445px;
+    top: 50px; 
+    background-image: linear-gradient(100deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);;
+    border: 45px solid;
+    border-color: rgb(255, 255, 255);
+    border-image: linear-gradient(100deg, rgb(0, 0, 0) 0%, rgb(248, 219, 220) 100%);
+    left: 22.5%;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 700;
+}
+.cuadro{
+    position: absolute;
+    left: 10%;
+    margin-top: -5px;
+    width: 80%;
+    height: 405px;
+    background-color: rgb(40, 40, 40);
+}
+
+.contenedor{
+    position: relative;
+    margin-top: -9px;
+    left: 16%;
+    width: 335px;
+    height:335px ;
+    border: 15px solid;
+    border-image: linear-gradient(111deg, black 0%, rgb(255, 255, 255)100%);
+    background-color: aliceblue;
+}
+
+.im{
+    position: relative;
+    width: 330px; 
+    height: 330px;
+    left: 3px;
+    top: 2px;
+}
+
+
+#tress{
+    color: aliceblue;
+}
+
+
+.deec1{
+    position: absolute;
+    left: 90%;
+    top: 310px;
+    width: 140px;
+    height:140px;
+    background-color: #000;
+    transition: 2s;
+    
+}
+.deec1:hover{
+    background-image:linear-gradient(100deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
+    border-radius: 50%;
+}   
+
+
+.deec2{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background-color: rgba(58, 58, 58, 0.731);
+    left: 30px;
+    top: 25px;
+    transition: 1s;
+}
+.deec2:hover{
+    background-color: black;
+    transform:rotate(360deg);
+}
+
+.deec3{
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    background-color: #000000;
+    top: 150px;
+    left: 150px;
+    transition: 2s;
+}
+.deec3:hover{
+    transform: scale(0.85);
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.deec4{
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    background-color: #000000;
+    top: 440px;
+    left: 80%;
+    transition: 2s;
+}
+.deec4:hover{
+    transform:scaleX(0.5);
+    background-color: rgb(187, 187, 187);
+}
+
+.deec5{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background-color: #000000;
+    top: 315px; 
+    left: 160px; 
+    transition: 2s;
+}
+.deec5:hover{
+ background-color: darkgray;
+ transform: skewX(-25deg);
+}
+
+.deec6{
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    background-color: #000000;
+    top: 200px;
+    left: 80%;
+    transition:2s;
+}
+.deec6:hover{
+    transform: skew(20deg, 5deg);
+    background-color: azure;
+}
+
+
+.deec7{
+    position: absolute;
+    width: 155px;
+    height: 155px;
+    background-color: #000000;
+    top: 20px;
+    left: 80%;
+    transition:2s;
+}
+.deec7:hover{
+    transform: translate(50px, 10px);
+    background-color: ghostwhite;
+}
+
+
+.deec8{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #000000;
+    top: 385px;
+    transition: 3s;
+}
+.deec8:hover{
+    transform: matrix(0.7, -0.5, 0.5, 0.4, 0.5, 0.5);
+    background: #6e6d6d;
+}
