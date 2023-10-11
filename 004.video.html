@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>videos/audio</title>
-     <link rel="stylesheet" href="pg.video.css">
+     <link rel="stylesheet" href="004.video.css">
     
 </head>
-<body>
+<body onclick="playAudio">
 
     <!-- voy a poner e practicar poner audio y videos en las siuietes linens de codigo -->
 <nav class="vidio">
@@ -16,9 +16,17 @@
 </nav>
 
 
-<button  id="myaudio" onclick="playPause(myaudio)">Play
-<audio id="myaudio" src="derramo.mp3"></audio>
+<button  id="myaudio"  >
+    <audio  id="myaudio1">
+        <source src="derramo.mp3" type="audio/mpeg" loop >
+    </audio>
 </button>
+   
+   <script>
+    function playAudio() {
+    document.getElementById("myaudio").play();
+}
+    </script>
 
 
 

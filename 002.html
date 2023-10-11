@@ -7,7 +7,7 @@
         let jugador = 0
         let pc = 3
         jugador = prompt("              ")
-         if(jugador == 1) {
+        if(jugador == 1) {
             alert("HOLA!")
         } else if(jugador == 2) {
             alert("HI!") 
@@ -20,9 +20,25 @@
         } else{
             alert("saludos")
         }
-       </script>
+        </script>
+        <script src="002.js"></script>
        <body>
         <h1><strong>Un hijo de Dios con talentos ocultos</strong></h1>
+
+
+    <button onclick="playAudio()" ondblclick="pauseAudio()" >Reproducir audio</button>
+    <button onclick="pauseAudio()">Detener audio</button>
+    <audio id="myAudio">
+    <source src="derramo.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+
+
+
+
+
+
        </body>           
     </head>
 </html>
