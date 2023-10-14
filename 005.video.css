@@ -1,6 +1,6 @@
 body{
     background-image: linear-gradient(150deg, rgb(108, 250, 255) 5%, blue 100%);
-    min-height: 3500vh;
+    min-height: 3050vh;
     transition: 2s;
 }
 body:hover{
@@ -11,8 +11,8 @@ body:hover{
 .container1{
 position: absolute;
 width: 50%;
-height: 24500px;
-background-image: linear-gradient(200deg, rgb(246, 72, 9) 10%, rgb(0, 225, 255));
+height: 20000px;
+background-image: linear-gradient(200deg, rgb(123, 207, 255) 10%, rgb(0, 225, 255));
 border-radius: 25px 0px 0px 25px;
 left: 0px;
 display:inline-block;
@@ -350,8 +350,8 @@ display:inline-block;
 .container2{
 position: absolute;
 width: 50%;
-height: 24500px;
-background-image: linear-gradient(200deg, rgb(253, 140, 140) 10%, rgb(0, 225, 255)); 
+height: 20000px;
+background-image: linear-gradient(200deg, rgb(123, 207, 255) 10%, rgb(0, 225, 255));
 border-radius: 0px 25px 25px 0px;
 left: 50%;
 display: inline-block;
@@ -683,8 +683,6 @@ display: inline-block;
 } 
 
 
-
-
  /*aqui va el titulo*/
  .vidio{
     background-image: linear-gradient(120deg, rgb(14, 105, 251) 0%, rgb(91, 27, 15));                            
@@ -762,6 +760,62 @@ iframe{
     left: 5%;
 }
 
+div{
+    view-timeline-name: --vew;
+    view-timeline-axis: block;
+
+    animation-timeline: --vew;
+    animation-name: show;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode:both;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    height:250px;
+    background-color: rgb(255, 255, 255);
+    left:0px;
+    top: 20400px;
+        
+}
+ 
+.insta{
+    width: 85px;
+    height: 85px ;
+    background-color: rgb(56, 85, 109);
+    top: 10PX;
+}
+
+.wa{
+    width: 115px;
+    height: 85px;
+    background-color:rgb(56, 85, 109);
+}
+
+.jub{
+    width: 115px;
+    height: 85px;
+    background-color: rgb(46, 85, 109);
+   
+}
+
+.lorem{
+    position: absolute;
+    margin-top: 20000px;
+    background-color: rgb(46, 85, 109);
+    color: aliceblue;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 25px;
+    left: 0px;
+    height: 175px;
+    text-align: center;
+    font-style: initial;
+}
 
 @media screen and (max-width:425px){
    .vid0{
