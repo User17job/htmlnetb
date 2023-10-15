@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(175, 196, 196);
+    max-width: 100vh;
+    transition: 4s;
+}
+body:hover{
+    background-color: rgb(20, 19, 19);
+}
+
+section{
+    position: absolute;
+    min-width: 100vh;
+    height: 1500px;
+}
+
+#titulo {
+    position:relative;
+    color: white;
+    background-color: rgb(0, 0, 251);
+    width: 140%;
+    height: 345px;
+    margin-top: 10px;
+    top: -20px;
+    font-size: 25px ;
+}
+
+#contenido {
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 255, 255);
+    width: 945px;
+    height: 2300px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+#barra{
+    position: relative;
+    color: white;
+    width: 350px;
+    height: 800px;
+    background-color: rgb(255, 234, 0);
+    left: 973px;
+    top: -2325px;
+    font-size: 25px;
+}
+
+#barra3{
+    position: relative;
+    color: white;
+    width: 350px;
+    height: 800px;
+    background-color: rgb(102, 255, 0);
+    left: 973px;
+    top: -2177px;
+    font-size:25px ;
+}
+
+#barra2{
+    position: relative;
+    color: white;
+    width: 350px;
+    height: 550px;
+    background-color: rgb(255, 162, 0);
+    left:973px;
+    top: -2240Px;
+    font-size:25px ;
+}
+
+#pie{
+    position: relative;
+    color: white;
+    background-color: rgb(208, 29, 29);
+    width: 140%;
+    height: 400px;
+    top: -2072px;
+    font-size:25px ;
+}
