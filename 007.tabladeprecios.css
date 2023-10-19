@@ -1,0 +1,105 @@
+body{
+    background-color: darkslategrey;
+    font-family: 'Oswald', 'sans-serif';
+}
+
+
+.cubo{
+   
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.cubo_div{
+    width: 550px;
+    background: #fff;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    background: rgb(228,  228,  228);
+    color: #333;
+    border:1px solid #333;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: -15px 15px 5px black; 
+}
+
+.cubo_div--h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.cubo_div--precio{
+color: #00dac7;
+font-size: 50px;
+}
+
+.cubo_div--com{
+display: block;
+text-decoration: none;
+background-color:rgba(0, 187, 255, 0.855) ;
+color: darkslategray;
+border-radius:25px ;
+font-size: 30px;
+margin-bottom: 10px;
+}
+.cubo_div--com:hover{
+    background-color:rgba(1, 144, 163, 0.855) ;
+}
+
+@media screen and (max-width: 1070px) {
+    .cubo{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+
+        .cubo_div{
+            width: 85%;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .cubo{
+        display: grid;
+        grid-template-columns: auto;
+        
+        .cubo_div{
+            margin: 20px 40px;
+            width: 400px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font familys */
+/*
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Young Serif', serif; 
+*/
