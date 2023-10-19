@@ -7,16 +7,24 @@
     <link rel="stylesheet" href="0.barradenav.css">
 </head>
 <body>
-    
-    
-    <nav class="barra">
-        <div class="barra_contscts">contacts</div>
-        <div class="barra_medios">media</div>
-        <div class="barra_contenido">contain</div>
-        <div class="barra_inicio">star</div>
-       
+     
+    <nav class="nav">
+        
+        <button class="nav_btn" onclick="action()">Menú</button>    
+        <a href="#" class="nav_enlace vete">Contain</a>    
+        <a href="#" class="nav_enlace vete">Contacts</a>    
+        <a href="#" class="nav_enlace vete">Information</a>    
+        <a href="#" class="nav_enlace vete">Service</a>    
     </nav>
-
-         
+   
+    <script>
+        function action(){
+                var ancla = document.getElementsByClassName('nav_enlace');
+                for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle('vete')
+            }
+            alert("hulaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+        }
+    </script>
 </body>
 </html>
