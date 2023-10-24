@@ -6,7 +6,7 @@ body{
 .global{
     display: flex;
     flex-wrap: wrap;
-    background-color: blanchedalmond;
+    background-color: rgb(0, 0, 0);
 }
 /* este sitio se caracterizara porque tratare de no usar ningun tipo de propiedad de position todo lo posicionare con margin */
 
@@ -19,7 +19,7 @@ body{
     padding: 10px;
     width: 100%;
     height: 80px;
-    background-color: #4a4040;
+    background-color: #000000;
     display: flex;
     
 }
@@ -65,7 +65,7 @@ text-decoration: none;
 .cubo1_barra--div2{
     width: 75px;
     height: 45px;
-    background: rgb(220, 0, 0);
+    background: rgb(255, 0, 0);
     margin-top: 20px;
     border-radius: 15%;
 }
@@ -93,39 +93,123 @@ text-decoration: none;
 /* aqui pondre la barra lateral a la izquierda */
 .cubo11 {
     color: #fff;
-    background-color: rgb(45, 194, 194);
+    background-color: rgb(0, 0, 0);
     display: inline-block;
     width: 25%;
-    height: 550px;
+    height: 500px;
     margin-top: 30px;
     border-radius: 15px;
     
 
 }
-
 .cubo11_buscar{
     display: flex;
     margin-left: 10px;
     margin-top: 10px;
 }
-
 .cubo11_buscar--p{
-    margin-top: 15px;
+    margin-top: 5px;
     margin-left: 20px;
     font-size: 20px;
     color: #ffffff; 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 550;
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+}
+.cubo11_buscar--p:hover{
+    background-color: #d8d8d8;
+    color: #000;
+}
+.ico{
+    border-radius:50px;    
+    border:transparent
+}
+
+/* configuracion */
+.abajo{
+    margin-top: 125px;
 }
  
-
-
 /* aqui va el contenido multimedia */
 .cubo2{
-    background: #00f;
+    background: rgb(0, 0, 0);
     display: inline-block;
     margin-left: 30px;
     margin-top: 30px;
     border-radius: 15px;
     width: 70%;
+    height:40% ;
+}
+
+/*aqui pondre las dos imagenes */
+.cubo2_img{
+    display: inline-flex; 
+    flex-direction: row;
+    background-color: #000;
+    width: 440px;
+    height: 280px;
+    border-radius: 15px;
+    margin: 15px 0px 0px 15px;
+}
+
+/* aqui pondre el pie de del video */
+.cubo2_img--pie1{
+    margin-top: 300px;
+    margin-right: 300px;
+    font-weight: 550;
+    color: #003;
+
+}
+
+
+.img2{
+    image-rendering:auto;
+    width: 100%;
+    height: 100%;
+    margin-right: 0px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+}
+
+
+
+/* aqui va la palabra novedad*/
+.cubo2_p{
+    margin-top: 75px;
+    font-size: 1em;
+}
+
+.cubo2_img--short{
+    color: black;
+    display: inline-flex;
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 110px;
+    background-color: beige;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.desc{
+    position: absolute;
+    font-size: 10px;
+    margin: 0px;
+    top: 430px;
+    right: 773px;
+}
+.desc1{
+    position: absolute;
+    font-size: 10px;
+    margin: 0px;
+    top: 430px;
+    right: 405px;   
+}
+
+.so{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px ;
 }
