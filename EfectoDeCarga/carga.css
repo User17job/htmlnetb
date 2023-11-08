@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #181818;
+    
+}
+
+.contenedor{
+    margin: auto;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor__div{
+    position: relative;
+    width: 400px;
+    height: 550px;  
+    background-color: #101010;
+    border-radius: 10%;
+    box-shadow: 16px 14px 15px #000000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor__div::before{
+    content: "";
+    position: absolute;
+    height: 650px;
+    width: 650px;
+    background-image: conic-gradient( blue 20deg,  transparent 120deg ) ;
+    animation: rotar 2s linear infinite;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+.contenedor__div::after{
+    content: "";
+    position: absolute;
+    height: 510px;
+    width: 360px;
+    border-radius: 10%;
+    background-color: #101010;
+    box-shadow: inset 16px 14px 15px #000000;
+}
+
+.contenedor__h2 {
+    color: blue;
+    text-align: center;
+    font-size: 35px;
+    z-index: 2;
+    background:transparent;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 650;
+    text-shadow: 15px 14px 15px #000000;
+
+    animation: mood 2s linear infinite;
+}
+
+@keyframes mood{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    
+    .contenedor{
+        width: 410px;
+        overflow: hidden;
+        scrollbar-gutter: stable;
+    }
+
+    .contenedor__div{
+        width: 355px;
+        height: 445px; 
+        overflow: hidden;
+         
+        
+
+    }
+    .contenedor__div::before{
+     width: 550px;
+     height: 530px;  
+     overflow: hidden;
+     
+      
+
+    }
+
+    .contenedor__div::after{
+        height: 420px;
+        width: 320px;
+        overflow: hidden;
+        
+
+    }
+
+}
