@@ -1,0 +1,63 @@
+@import url("https://www.pexels.com/es-es/foto/cielo-azul-281260/");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: "poppins", sans-serif;
+}
+
+.item{
+    background:red;
+    width: 420px;
+    height: 360px;
+    margin: 40px;
+    transition: background-color 2s ;
+}
+.item:hover{
+    background: blue;
+
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.kiwi{
+    background: green;
+    width: 420px;
+    height: 360px;
+    margin: 40px;
+    transition: background-color 2s;
+}
+.kiwi:hover{
+    background: red;
+}
+
+.yo{
+    background: blue;
+    width: 420px;
+    height: 360px;
+    margin: 40px;
+    transition: background-color 2s;
+}
+.yo:hover{
+    background:orange;
+}
+
+.tu{
+    background: orange;
+    width: 420px;
+    height: 360px;
+    margin: 40px;
+    transition: background-color 2s;
+}
+.tu:hover{
+    background: green;
+}
