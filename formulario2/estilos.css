@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.cont{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(14, 14, 14);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cont__div{
+    position: relative;
+    width: 99%;
+    height: 98%;
+    background-color: rgb(26, 26, 25);
+    margin: auto;
+    box-shadow: 17px 15px 15px #000000;  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    border-radius: 10px;
+}
+.cont__div::before{
+    position: absolute;
+    content: "";
+    width: 100em;
+    height: 100em;
+    background-image: conic-gradient( rgb(170, 1, 1) 20deg, transparent 150deg);
+    animation: rout 3s linear infinite;
+}
+.cont__div:hover::before{
+    background-image: conic-gradient( rgb(0, 11, 96) 20deg, transparent 150deg); 
+    animation: rout 5s linear infinite;  
+}
+.cont__div:active::before{
+    background-image: conic-gradient( rgb(4, 208, 4) 20deg, transparent 150deg); 
+    animation: rout 7s linear infinite;  
+}
+.cont__div::after{
+    position: absolute;
+    content: "";
+    width: 95%;
+    height: 93%;
+    background-color: #0b0b0b;
+    box-shadow: inset  17px 15px 15px #000000;
+    border-radius:10px
+}
+
+.cont__div--div{
+    
+    z-index: 2;
+    font-size: 45px;
+     
+    
+}
+form{
+    width: 75%;
+    height: 80%;
+    position: absolute;
+    border-radius: 10px;
+    background: #ffffff00;
+    box-shadow: 15px 15px 18px black;
+}
+
+label{
+    margin-top: 100px;
+    font-size: 35px;
+    color:darkslategrey;
+}
+
+h1{
+    background-color: rgb(23, 22, 22);
+    width: 140px;
+    position: absolute;
+    color: darkslategrey;
+    z-index: 3;
+    top: 54px;
+    border-radius: 15px;
+    font-size: 40px;
+    left: 925px;
+    text-align: center;
+}
+h1:hover{
+    background-color: darkgray;
+    box-shadow: 10px 10px 15px black;
+}
+
+.up{
+    display: block;
+    margin-right: 10;
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(7, 16, 35, 0.852);
+    color: darkcyan;
+    font-size: 15px;
+}
+
+.btn{
+    width: 125px;
+    height: 35px;
+    position: absolute;
+    left: 80%;
+    display: flex;
+    justify-content:space-between;
+}
+.btn__button{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(34, 5, 1);
+    color: aliceblue;
+    font-size: 15px;
+}
+.btn__button:hover{background-color: rgb(7, 3, 80);}
+.btn__button:active{background-color: rgb(3, 80, 18);}
+
+
+@keyframes rout{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
