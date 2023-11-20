@@ -72,6 +72,8 @@ label{
     font-size: 35px;
     color:darkslategrey;
 }
+label:active{color:rgb(72, 121, 121);}
+label:hover{color:rgb(72, 121, 121); }
 
 h1{
     background-color: rgb(23, 22, 22);
@@ -86,8 +88,9 @@ h1{
     text-align: center;
 }
 h1:hover{
-    background-color: darkgray;
+    background-color: rgb(142, 141, 141);
     box-shadow: 10px 10px 15px black;
+    color: rgb(67, 138, 129) ;
 }
 
 .up{
@@ -121,6 +124,40 @@ h1:hover{
 .btn__button:hover{background-color: rgb(7, 3, 80);}
 .btn__button:active{background-color: rgb(3, 80, 18);}
 
+.numero{
+    color: rgb(69, 59, 59);
+    background-color: rgb(52, 36, 36); 
+    z-index:2;
+    margin-left: 800px;
+    margin-top:275px;
+    width:115px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+.numero:hover{
+    background-color: rgb(21, 51, 78); 
+    color: rgb(186, 213, 255);
+    
+}
+
+.numero:active{
+    background-color: rgb(5, 62, 5); 
+    color: rgb(210, 251, 255);
+}
+
+@media screen and (max-width: 500px){
+    .cont{
+        background: #fff;
+    }
+    .numero{
+        margin-left: 120px;
+        margin-top: 440px;
+    }
+    .btn{
+        left: 30%;
+    }
+}
 
 @keyframes rout{
     from{
