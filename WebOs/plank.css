@@ -151,7 +151,7 @@ justify-content: space-around;
         border-radius: 15px;
         width: 520px;
         height: 430px;
-        transform:translate(23rem, 2em);
+        transform:translate(23rem, 1em);
         z-index: 2;
     }
 
@@ -164,10 +164,45 @@ justify-content: space-around;
         border-radius: 15px;
         width: 520px;
         height: 430px;
-        transform:translate(-34rem, 2em);
+        transform:translate(-34rem, 1em);
         z-index: 2;
     }
 
 
+}
+
+.footer{
+    padding: 10px;
+    position: absolute;
+    top: 150rem;
+    width: 99%;
+    height: 250px;
+    background-color:rgb(26, 26, 50) ;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    
+        .footer__div--p{
+        text-align: center;
+        height: 100px;
+        color: #fff;
+        font: 550;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        margin: 20px;
+    }
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    display: inline;
+    margin: 20px;
+}
+img:hover{
+    transform: scale(1.1,1.1);
+}
+a{
+    text-decoration: none;
 }
 
