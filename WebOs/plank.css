@@ -175,7 +175,7 @@ justify-content: space-around;
     padding: 10px;
     position: absolute;
     top: 150rem;
-    width: 99%;
+    width: 97.5%;
     height: 250px;
     background-color:rgb(26, 26, 50) ;
     align-items: center;
@@ -190,6 +190,27 @@ justify-content: space-around;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 20px;
         margin: 20px;
+    }
+ 
+    .parag{
+        position: absolute;
+        left:0px;
+        bottom: 35px;
+        width: 270px;
+        height: 20px;
+        color: #bcbef9;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        
+    }
+    .paran{
+        position: absolute;
+        left: 0%;
+        bottom: 10px;
+        width: 130px;
+        height: 20px;
+        color: #bcbef9;
+        font-size: 15px;
     }
 }
 img{
