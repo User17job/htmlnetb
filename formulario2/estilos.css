@@ -120,6 +120,7 @@ h1:hover{
     background-color: rgb(75, 10, 2);
     color: aliceblue;
     font-size: 15px;
+    z-index: 3;
 }
 .btn__button:hover{background-color: rgb(7, 3, 80);}
 .btn__button:active{background-color: rgb(3, 80, 18);}

@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <titLE>FORMULARIO</titLE>
     <link rel="stylesheet" href="estilos.css">
-    </head>
+</head>
 <body>
     <section class="cont">
-        <div class="cont__div">
+        <div class="cont__div"> 
             <h1>Form</h1>
-            <form class="cont__div--div" autocomplete="off" id="form" netlify> 
+            <form class="cont__div--div" autocomplete="off" id="formu" netlify> 
 
                 <label for="name">Name</label>
                 <input id="name" class="up"   placeholder="name" type="text" name="name" id="">
@@ -24,16 +24,18 @@
                 <label for="com">Coment</label>
                 <input type="text" class="up" id="com"   placeholder="Coment" name="coment">
             
-                <div class="btn">
+                 <div class="btn">
                     <button class="btn__button" type="reset">reset</button>
-                    <button class="btn__button" type="submit">submit</button>
-                </div>
+                    <button class="btn__button" name="submit" type="submit" value="submit"  >submit</button>
+                </div>  
                 
                 <p class="warnings" id="warnings" value></p>
             </form>
             <a href="https://wa.link/vx5dne" target="_blank" class="numero">(829)-523-7077</a>
         </div>
+        <script src="form.js"></script>
     </section>
-    <script src="form.js"></script>
+
+
 </body>
 </html>
